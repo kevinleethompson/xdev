@@ -1,0 +1,14 @@
+.main-container {
+	height: 100%;
+	width: 100%;
+}
+
+site-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 15vmin;
+	background: #5F5F5F;
+	box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.4);
+}
