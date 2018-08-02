@@ -1,0 +1,73 @@
+<div class="home-container">
+	<div class="home-row">
+		<h1>Featured Posts</h1>
+
+		<div class="scroll-row featured">
+			<card *ngFor="let post of featuredPosts" [post]="post">
+				<div class="card-img">
+					<img [src]="post.imgSource" alt="" class="card-image">
+				</div>
+				<h2 class="card-title"> {{ post.title }} </h2>
+				<p class="card-body"> {{ post.description }} </p>
+				<div class="card-footer">
+					<div class="post-type"> {{ post.type }} </div>
+					<div class="post-author"> {{ post.author}} </div>
+				</div>
+			</card>
+		</div>
+	</div>
+
+	<div class="home-row">
+		<h1>Latest Posts</h1>
+
+		<div class="scroll-row latest">
+			<card *ngFor="let post of featuredPosts" [post]="post">
+				<div class="card-img">
+					<img [src]="post.imgSource" alt="" class="card-image">
+				</div>
+				<h2 class="card-title"> {{ post.title }} </h2>
+				<p class="card-body"> {{ post.description }} </p>
+				<div class="card-footer">
+					<div class="post-type"> {{ post.type }} </div>
+					<div class="post-author"> {{ post.author}} </div>
+				</div>
+			</card>
+		</div>
+	</div>
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>

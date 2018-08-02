@@ -1,0 +1,35 @@
+:host ::ng-deep {
+	display: block;
+	margin-top: 11vmin;
+	height: 100%;
+
+	markdown {
+		h1 {
+			font-size: 50px;
+		}
+
+		p {
+			font-size: 20px;
+		}
+
+		pre[class*="language-"] {
+			background: #3f3f3f;
+			max-width: 950px;
+			border-radius: 4px;
+			box-shadow: 1px 1px 8px 0 rgba(0, 0, 0, 0.65);
+		}
+	}
+}
+
+.post-container {
+	height: 100%;
+}
+
+.post-body {
+	height: 100%;
+	width: 80%;
+	background: #fff;
+	border-radius: 4px;
+	padding: 10px 20px;
+	box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.15);
+}

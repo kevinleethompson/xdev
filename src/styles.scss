@@ -1,19 +1,35 @@
 @font-face {
-  font-family: 'Noto Sans';
-  src: url('/assets/fonts/NotoSans-Regular.ttf') format('truetype'),
+  font-family: 'Assistant';
+  src: url('/assets/fonts/Assistant-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Assistant';
+  src: url('/assets/fonts/Assistant-SemiBold.ttf') format('truetype');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Assistant';
+  src: url('/assets/fonts/Assistant-Light.ttf') format('truetype');
+  font-weight: lighter;
 }
 @font-face {
   font-family: 'Cutive Mono';
-  src: url('/assets/fonts/CutiveMono-Regular.ttf') format('truetype'),
+  src: url('/assets/fonts/CutiveMono-Regular.ttf') format('truetype');
 }
 
 html, body {
-	font-family: 'Noto Sans', sans-serif;
-	width: 100vw;
-	height: 100vh;
+	font-family: 'Assistant', sans-serif;
+	width: 100%;
+	height: 100%;
 	margin: 0;
+	padding: 0;
 }
 
 body {
-	background: #fff;
+	background: #eee;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Assistant', sans-serif;
+	font-weight: normal;
 }
